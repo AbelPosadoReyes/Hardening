@@ -1,6 +1,6 @@
 author: Abel Posado Reyes
 summary: Asegurar la BIOS correctamente desde un simulador web
-id: seguridad-windows-10
+id: equipo-simulado-bios
 categories: codelab,markdown
 environments: Web
 status: Published

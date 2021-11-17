@@ -1,0 +1,26 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2021-11-17T17:23:20+01:00",
+  "id": "Grub(v.0.97)",
+  "duration": 14,
+  "title": "Configuración Grub.",
+  "summary": "Instalación y configuración Grub(v.0.97)",
+  "source": "Debian5.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "codelab",
+    "markdown"
+  ],
+  "tags": [
+    "web"
+  ],
+  "feedback": "Un enlace en el que los usuarios puedan darte feedback (quizás creando un issue en un repositorio de git)",
+  "ga": "ID de Google Analytics",
+  "url": "Grub(v.0.97)"
+}
