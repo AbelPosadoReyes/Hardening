@@ -1,5 +1,5 @@
 # Equipo Simulado.
-Debemos acceder a la web y elegir nuestra propia BIOS. En mi caso va a ser IdeaCentre AIO V310z (10QG, 10GH). 
+Debemos acceder a la web y elegir nuestra propia BIOS. En este caso va a ser IdeaCentre AIO V310z (10QG, 10GH). 
 (img/2.1.png)
 Una vez estemos dentro de la BIOS, vamos a entrar en el apartado Security y vamos a retocar la contraseña de Administrador.
 (img/2.2.png)
