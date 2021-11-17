@@ -6,7 +6,7 @@ environments: Web
 status: Published
 feedback link: Un enlace en el que los usuarios puedan darte feedback (quizás creando un issue en un repositorio de git)
 analytics account: ID de Google Analytics
-# Configuración Grub.
+# Configuración Grub(v.2.04).
 
 ##Instalar el SO
 Duration: 0:02:00
