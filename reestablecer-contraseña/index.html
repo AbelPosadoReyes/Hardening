@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
   <meta name="theme-color" content="#4F7DC9">
   <meta charset="UTF-8">
-  <title></title>
+  <title>Reestablecer contraseña W10</title>
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
   <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
@@ -23,7 +23,7 @@
   <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
   <google-codelab codelab-gaid="ID de Google Analytics"
                   id="reestablecer-contraseña"
-                  title=""
+                  title="Reestablecer contraseña W10"
                   environment="web"
                   feedback-link="Un enlace en el que los usuarios puedan darte feedback (quizás creando un issue en un repositorio de git)">
     
@@ -44,6 +44,16 @@
       <google-codelab-step label="Paso 3" duration="2">
         <p>Entraremos a nuestro Windows con normalidad.</p>
 <p class="image-container"><img alt="Releases de claat" src="img\4bf932d8b80fee08.png"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Paso 4" duration="2">
+        <p>En este apartado vamos a deshabilitar el proceso utilman.exe. Antes de comenzar debemos saber que el fichero esta situado en c:\Windows\System32, antes de denegar el proceso para todos los usuarios debemos cambiarle los permisos del fichero. Para ello insertaremos el siguiente comando en una cmd: takeown /f c:\Windows\System32\utilman.exe.</p>
+<p class="image-container"><img alt="Releases de claat" src="img\7e6798b5c0673b86.png"></p>
+<p>Una vez hayamos realizado el paso anterior, debemos reiniciar el equipo para actualizar los cambios realizados.</p>
+<p>Una vez que hayamos inicie el equipo de nuevo debemos Denegar todos los permisos de los usuarios, para ello debemos asistir a la carpeta del fichero y modificar sus propiedas de seguridad.</p>
+<p class="image-container"><img alt="foto1" src="img\d6708588861a0a1d.png"><img alt="foto2" src="img\fb3dfe65cb9f69d7.png"><img alt="foto3" src="img\550698d6bc09d5da.png"><img alt="foto4" src="img\76f32e83719c74e5.png"><img alt="foto5" src="img\c14f06c130af644c.png"><img alt="foto6" src="img\f443568a701f7681.png"></p>
 
 
       </google-codelab-step>

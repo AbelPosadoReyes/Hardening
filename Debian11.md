@@ -67,3 +67,8 @@ Nos saldría dos pantallas para verificar las particiones.
 Una vez hayamos realizado los pasos anteriores correctamente se nos reiniciara el equipo y podremos acceder a nuestro equipo.
 
 ![Releases de claat](img/5.13.png)
+
+##Configuración de Grub
+Duration: 0:10:00
+
+/aqui nos quedamos/

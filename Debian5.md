@@ -62,5 +62,21 @@ Una vez acabado con los pasitos anteriores se nos instalará nuestro sistema ope
 
 ![Releases de claat](img/4.7.png)
 
-##Paso 4
-Duration: 0:05:00
+##Configuración de Grub
+Duration: 0:10:00
+
+Una vez que estemos dentro vamos a insertar el comando grub-md5-crypt en una consola de comandos para adquirir un hash md5 de una contraseña que hemos añadido.
+
+![Releases de claat](img/4.13.png)
+
+Vamos a insertar ese hash en el fichero menu.lst situado en /boot/grub, antes de añadir el hash debemos poner password --md5.
+
+![Releases de claat](img/4.14.png)
+
+A continuación cabiaremos los permisos al fichero, para ello vamos a darle todos los permisos (escritura,lectura y ejecución), para ello vamos a añadir chmod 700 /boot/grub/menu.lst
+
+![Releases de claat](img/4.15.png)
+
+Y para finalizar nuestra protección sobre grub, vamos a cambiar el timeout de nuestro sistema operativo para que arranque directamente el sistema.
+
+![Releases de claat](img/4.16.png)
