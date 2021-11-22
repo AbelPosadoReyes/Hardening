@@ -71,4 +71,23 @@ Una vez hayamos realizado los pasos anteriores correctamente se nos reiniciara e
 ##Configuración de Grub
 Duration: 0:10:00
 
-/aqui nos quedamos/
+Vamos a entrar con el comando su en el fichero 40_custom, situado en la siguiente ruta: /etc/grub.d.
+
+![Releases de claat](img/5.14.png)
+
+Lo siguiente que vamos a realizar es la protección de del usuario root, para ello vamos a generar la contraseña con el comando ___________ y la vamos a añadir al fichero junto a password root.
+
+![Releases de claat](img/5.15.png)
+
+A continuación vamos cambiar los permisos del fichero y vamos a dejarlo en 700 (el propietario es el único que tiene acceso a lectura, escritura y ejecución)
+
+![Releases de claat](img/5.16.png)
+
+Ahora vamos a reconfigurar el timeout del sistema, para ello vamos a ingresar en el fichero /etc/default/grub y lo vamos a poner a cero.
+
+![Releases de claat](img/5.17.png)
+
+El último paso que debemos realizar es la actualización de grub con los cambios realizados anteriormente.
+
+![Releases de claat](img/5.18.png)
+

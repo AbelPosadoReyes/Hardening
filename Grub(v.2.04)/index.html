@@ -74,6 +74,21 @@
 
       </google-codelab-step>
     
+      <google-codelab-step label="Configuración de Grub" duration="10">
+        <p>Vamos a entrar con el comando su en el fichero 40_custom, situado en la siguiente ruta: /etc/grub.d.</p>
+<p class="image-container"><img alt="Releases de claat" src="img\58a535ac246fae0e.png"></p>
+<p>Lo siguiente que vamos a realizar es la protección de del usuario root, para ello vamos a generar la contraseña con el comando ___________ y la vamos a añadir al fichero junto a password root.</p>
+<p class="image-container"><img alt="Releases de claat" src="img\f7629ef0f2f9d78b.png"></p>
+<p>A continuación vamos cambiar los permisos del fichero y vamos a dejarlo en 700 (el propietario es el único que tiene acceso a lectura, escritura y ejecución)</p>
+<p class="image-container"><img alt="Releases de claat" src="img\90d0e46c741e84c3.png"></p>
+<p>Ahora vamos a reconfigurar el timeout del sistema, para ello vamos a ingresar en el fichero /etc/default/grub y lo vamos a poner a cero.</p>
+<p class="image-container"><img alt="Releases de claat" src="img\91a18bf9a61827ef.png"></p>
+<p>El último paso que debemos realizar es la actualización de grub con los cambios realizados anteriormente.</p>
+<p class="image-container"><img alt="Releases de claat" src="img\4d758e6b079736dc.png"></p>
+
+
+      </google-codelab-step>
+    
   </google-codelab>
 
   <script src="https://storage.googleapis.com/codelab-elements/native-shim.js"></script>
